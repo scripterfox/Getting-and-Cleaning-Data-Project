@@ -9,7 +9,7 @@ That data set should be downloaded and unzipped into R's working directory befor
 
 The unzipped data is segmented into two groups; test data and training data.  During execution, the script loads both of these 
 sets of data into their own data frames with appropriately named variables.  The two data frames are then re-combined to produce a 
-single data frame containing all of the data.  This re-combined data frame is the reconstructed via subsetting so that it includes
+single data frame containing all of the data.  This re-combined data frame is then reconstructed via subsetting so that it includes
 only the variables containing mean or standard deviation measurements from the device signals used in the study.  The activity
 variable is then recoded into a factor type.  Finally, the data is melted, grouped and summarized into a tidy data set with the 
 average of each variable for each activity and each subject.
